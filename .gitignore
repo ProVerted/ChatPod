@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment & secrets
+.env
+*.env
+
+# Audio/video files (too large for GitHub)
+*.mp3
+*.wav
+*.mp4
+*.m4a
+
+# Model cache (Whisper downloads models here, they're huge)
+~/.cache/whisper/
+
+# OS junk
+.DS_Store
+Thumbs.db
