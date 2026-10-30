@@ -1,0 +1,21 @@
+# Phase 1: transcription only.
+# We add to this file deliberately, phase by phase — no raw `pip freeze` dumps.
+#
+# IMPORTANT: use Python 3.11 or 3.12 in a virtual environment.
+# faster-whisper depends on `av`, which does not yet ship prebuilt wheels
+# for very new Python versions (e.g. 3.14 on Windows). Using 3.13+ will
+# force pip to compile `av` from source, which fails without FFmpeg dev
+# headers and a full C build toolchain installed.
+#
+#   py -3.12 -m venv venv
+#   venv\Scripts\activate        (Windows)
+#   source venv/bin/activate     (macOS/Linux)
+#   pip install -r backend/requirements.txt
+
+faster-whisper==1.0.3
+requests==2.32.3
+pytest==8.2.0
+
+# Phase 2: summarization
+openai==1.51.0
+pydantic-settings==2.5.2

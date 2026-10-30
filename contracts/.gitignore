@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment & secrets
+.env
+*.env
+
+# Audio/video files (too large for GitHub)
+*.mp3
+*.wav
+*.mp4
+*.m4a
+
+# Whisper model cache
+.cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Frontend (added in Phase 6)
+frontend/node_modules/
+frontend/dist/
