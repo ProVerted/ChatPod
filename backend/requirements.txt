@@ -16,6 +16,11 @@ faster-whisper==1.0.3
 requests==2.32.3
 pytest==8.2.0
 
-# Phase 2: summarization
+# Phase 2: summarization & settings
 openai==1.51.0
 pydantic-settings==2.5.2
+
+# Phase 4: API Service Layer
+fastapi==0.115.0
+uvicorn==0.31.0
+python-multipart==0.0.12
