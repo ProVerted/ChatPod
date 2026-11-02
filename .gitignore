@@ -23,10 +23,16 @@ htmlcov/
 dist/
 build/
 *.egg-info/
+~/.cache/whisper/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # Node & Frontend
 node_modules/
 frontend/build/
+Frontend/build/
 frontend/.pnp
 frontend/.pnp.js
 npm-debug.log*
@@ -44,5 +50,7 @@ Thumbs.db
 # Downloaded audio & temp files
 *.mp3
 *.wav
+*.mp4
 *.m4a
 *.tmp
+downloads/

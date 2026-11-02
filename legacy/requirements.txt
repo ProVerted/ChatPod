@@ -1,0 +1,12 @@
+openai-whisper
+torch
+transformers
+flask
+flask-cors
+python-dotenv
+requests
+gradio
+pydub
+accelerate
+sentencepiece
+protobuf
